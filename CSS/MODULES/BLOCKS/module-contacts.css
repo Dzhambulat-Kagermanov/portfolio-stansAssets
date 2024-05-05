@@ -1,0 +1,132 @@
+.contacts-block {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto 150px auto;
+  z-index: -1;
+}
+/* TITLE */
+.contacts-block__title {
+  text-align: center;
+  color: var(--darkBlue);
+}
+/* TEXT */
+.contacts-block__text {
+  text-align: center;
+  margin: 60px 0 110px 0;
+}
+.contacts-block__text h2 {
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+/* CONTENT */
+.contacts-block__content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* --INFO */
+.contacts-block__info {
+  display: flex;
+  justify-content: center;
+  row-gap: 25px;
+  flex-flow: wrap column;
+}
+/* ----ITEM */
+.contacts-block-info__item {
+  display: flex;
+  column-gap: 15px;
+}
+.contacts-block-info__item h2 {
+  font-size: 20px;
+  max-width: 400px;
+}
+.contacts-block-info__item img {
+  width: 24px;
+  height: 24px;
+}
+/* --FORM */
+.contacts-block-form__container {
+  margin: 0 85px 0 0;
+  position: relative;
+  z-index: 2;
+}
+.contacts-block__form {
+  width: 420px;
+
+  padding: 50px 40px 70px 40px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
+}
+.contacts-block-form__input {
+  margin: 0 0 20px 0;
+}
+.contacts-block-form__input input,
+.contacts-block-form__input textarea {
+  text-indent: 15px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contacts-block-form__input textarea {
+  text-indent: 0;
+  padding: 10px 15px 10px 15px;
+  height: 100px;
+  resize: none;
+}
+.contacts-block-form__input:nth-child(3) {
+  margin: 0 0 70px 0;
+}
+.contacts-block-form__input:nth-child(3) input {
+  height: 40px;
+}
+/* --BTN */
+.contacts-block-form__btn {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 6px;
+  background: #2da531;
+}
+.contacts-block-form__btn h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* BACKGROUND ICONS */
+.contacts-block__info--baclgrounds-icons {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.contacts-block__info--baclgrounds-icons img {
+  position: absolute;
+}
+.contacts-block__info--baclgrounds-icons img:nth-child(1) {
+  left: -90px;
+  top: -50px;
+}
+.contacts-block__info--baclgrounds-icons img:nth-child(2) {
+  right: -85px;
+  top: -52px;
+}
+.contacts-block__info--baclgrounds-icons img:nth-child(3) {
+  left: -120px;
+  bottom: 35px;
+}

@@ -1,0 +1,30 @@
+/* MODULES IMPORTS */
+/* --COMPONENTS */
+@import url("../../MODULES/COMPONENTS/TEXT/text-0.css");
+@import url("../../MODULES/COMPONENTS/TITLE/title-0.css");
+@import url("../../MODULES/COMPONENTS/BTN/btn-0.css");
+/* --BLOCKS */
+@import url("../../MODULES/BLOCKS/module-navigation.css");
+@import url("../../MODULES/BLOCKS/module-burger-menu.css");
+@import url("../../MODULES/BLOCKS/module-reviews.css");
+@import url("../../MODULES/BLOCKS/module-solution.css");
+@import url("../../MODULES/BLOCKS/module-contacts.css");
+@import url("../../MODULES/BLOCKS/module-footer.css");
+
+/* FILES IMPORTS */
+/* --HEAD */
+@import url("./HEAD/home__head-content.css");
+@import url("./HEAD/home__head-slider.css");
+@import url("./HEAD/home__head-social.css");
+/* --TECHNOLOGIES */
+@import url("./TECHNOLOGIES/home__technologies-content.css");
+/* --SERVICES */
+@import url("./SERVICES/home__services-content.css");
+/* --ACHEVEMENTS */
+@import url("./ACHIEVEMENTS/home__achievements-content.css");
+/* --PARTNERS */
+@import url("./PARTNERS/home__partners-content.css");
+
+/* ADAPTIVE IMPORTS */
+@import url("../../ADAPTIVE/home-adaptive.css");
+@import url("../../ADAPTIVE/modules-adaptive.css");

@@ -1,0 +1,22 @@
+/* SOLUTION module */
+.solution-container {
+  background-image: url("../../IMG/MODULES/SOLUTION/background-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 225px 0;
+  margin: 65px 0 80px 0;
+}
+/* RECENT module */
+.recent-container {
+  background: url("../../IMG/MODULES/RECENT/background-1.jpg") no-repeat center
+    center/cover;
+  padding: 200px 0;
+  margin: 200px 0 80px 0;
+}
+/* FOOTER module */
+.footer-container-half-1 {
+  background: url("../../IMG/MODULES/FOOTER/background-1.jpg") no-repeat center
+    center/cover;
+  background-color: var(--darkBlue);
+}

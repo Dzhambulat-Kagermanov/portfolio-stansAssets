@@ -1,0 +1,110 @@
+.faqs-block {
+  margin: 200px auto;
+  max-width: 890px;
+}
+/* TITLE */
+.faqs-block__title {
+  text-align: center;
+  color: var(--darkBlue);
+}
+/* GROUP */
+.faqs-block__group {
+  margin: 70px 0;
+  display: flex;
+  row-gap: 25px;
+  flex-flow: wrap column;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+.faqs-block__group::before {
+  content: "";
+  width: 20px;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  transform: translate(-50%, -50%);
+  border: 6px solid var(--lightGreen);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+}
+.faqs-block__group::after {
+  content: "";
+  width: 20px;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  transform: translate(-50%, -50%);
+  border: 6px solid var(--lightGreen);
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+}
+/* --ITEM */
+.faqs-block-group__item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.faqs-block-group__item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--mediumBlue);
+  border-radius: 50%;
+}
+.faqs-block-group__item a {
+  color: var(--mediumBlue);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: calc(100% - 22px);
+}
+/* GROUP */
+.faqs-block__questions {
+  display: flex;
+  row-gap: 20px;
+  flex-flow: wrap column;
+}
+/* --ITEM */
+.faqs-block-quetions__item {
+  border-bottom: 1px solid var(--mediumBlue);
+}
+/* ----TITLE */
+.faqs-block-question__title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  transition: 0.1s all linear;
+}
+.faqs-block-question__title:hover {
+  transform: scale(1.01);
+}
+.faqs-block-question__title h2 {
+  color: var(--darkGrey);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* ------IMG */
+.faqs-block-question-title__img {
+  transform: rotate(0deg);
+  transition: 0.2s all linear;
+}
+.faqs-block-quetions__item.--active .faqs-block-question-title__img {
+  transform: rotate(180deg);
+}
+/* ----CONTENT */
+.faqs-block-question__content {
+  line-height: 26px;
+  margin: 15px 0;
+  transition: 0.5s all cubic-bezier(0.2, 0.42, 0.4, 0.95);
+  overflow: hidden;
+  max-height: 0px;
+}

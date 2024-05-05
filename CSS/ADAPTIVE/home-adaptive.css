@@ -1,0 +1,303 @@
+@media screen and (max-width: 1930px) {
+  /* HEAD */
+  .home-head__content {
+    padding: 0 0 335px 0;
+  }
+  .home-services-item__text h3 {
+    line-height: 25px;
+  }
+  /* PARTNERS */
+  .home-container-5 {
+    margin: 0px 0 100px 0;
+  }
+  .home-partners {
+    padding: 150px 0;
+  }
+}
+@media screen and (max-width: 1660px) {
+  .home-partners {
+    padding: 225px 0 305px 0;
+  }
+}
+@media screen and (max-width: 1440px) {
+  /* HEAD */
+  .home-head__content {
+    padding: 0px 0 210px 0;
+  }
+  .home-head-content__group {
+    margin: 100px 0 0 0;
+  }
+  .home-h-c-group__text h2 {
+    font-size: 15px;
+  }
+  .home-h-c-group__social {
+    top: 50%;
+  }
+  /* TECHNOLOGIES */
+  .home-technologies {
+    margin: 50px 0 0 0;
+  }
+  .home-technologies__title {
+    margin: 0px 0 40px 0;
+  }
+  .home-technologies__text h2,
+  .home-technologies__text h2 p,
+  .home-technologies__text h2 span {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  /* SERVICE */
+  .home-services-item__text h3 {
+    text-align: justify;
+  }
+  .home-services-item__img {
+    width: 40%;
+  }
+  .home-services__group {
+    row-gap: 60px;
+  }
+  /* ACHIEVEMENTS */
+  .home-achievements {
+    margin: 0 0 90px 0;
+  }
+  .home-achievements__group {
+    margin: 70px 0 0 0;
+  }
+  .home-achievements-group__item {
+    width: 400px;
+    background-size: cover;
+  }
+  .home-achievements-group__item h2 {
+    font-size: 18px;
+    margin: 285px 0 0 0;
+  }
+  .home-achievements-group__item h2 span {
+    font-size: 18px;
+  }
+  .home-achievements-group__item:nth-child(2) h2 span,
+  .home-achievements-group__item:nth-child(3) h2 span,
+  .home-achievements-group__item:nth-child(4) h2 span {
+    color: black;
+  }
+}
+@media screen and (max-width: 1180px) {
+  /* HEAD */
+  .home-head__content {
+    padding: 0px 0 200px 0;
+  }
+  .home-head-content__group {
+    margin: 80px 0 0 0;
+  }
+  /* SERVICE */
+  .home-services__title {
+    margin: 0px 0 35px 0;
+  }
+  .home-services-item__text {
+    max-width: 455px;
+  }
+  .home-services-item__text h2 {
+    margin: 0px 0 25px 0;
+  }
+  .home-services-item__img {
+    width: 45%;
+  }
+  .home-services-item__text h3 {
+    padding: 0 25px 0 0;
+    overflow: auto;
+    max-height: 215px;
+  }
+  /* PARNERS */
+  .home-container-5 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* HEAD */
+  .home-h-c-group__sliderPosition-item {
+    width: 25px;
+    height: 25px;
+    border: 4px solid #fff;
+  }
+  .home-h-c-group__social {
+    display: none;
+  }
+  /* SERVICE */
+  .home-services-item__text {
+    max-width: 400px;
+  }
+  .home-services-item__img {
+    width: 45%;
+  }
+  /* ACHIVEMENTS */
+  .home-achievements-group__item {
+    width: 365px;
+  }
+  .home-achievements-group__item h2 {
+    font-size: 16px;
+  }
+  .home-achievements-group__item h2 span {
+    font-size: 16px;
+  }
+  /* PARNERS */
+  .home-partners {
+    padding: 259px 0 355px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* HEAD */
+  .home-h-c-group__text h2 {
+    font-size: 18px;
+  }
+  /* TECHNOLOGIES */
+  .home-technologies__group {
+    column-gap: 60px;
+  }
+  /* SERVICE */
+  .home-services__title {
+    margin: 0px 0 80px 0;
+  }
+  .home-services__group {
+    row-gap: 80px;
+  }
+  .home-services-item__text h3 {
+    padding: 0 5px 0 0;
+  }
+  .home-services-item__text h2 {
+    text-align: center;
+  }
+  .home-services-group__item {
+    flex-wrap: wrap;
+  }
+  .home-services-item__text {
+    max-width: none;
+    margin: 0 auto;
+    order: 1;
+  }
+  .home-services-item__text h3 {
+    font-size: 18px;
+  }
+  .home-services-item__img {
+    order: 2;
+    margin: 20px auto 0 auto;
+    width: 70%;
+  }
+  .home-services-group__item:nth-child(1) .home-services-item__img {
+    transform: translateX(21px);
+  }
+  .home-services-group__item:nth-child(2) .home-services-item__img {
+    transform: translateX(-20px);
+  }
+  .home-services-group__item:nth-child(3) .home-services-item__img {
+    transform: translateX(5px);
+  }
+  .home-services-group__item:nth-child(4) .home-services-item__img {
+    transform: translateX(10px);
+  }
+  /* ACHIEVEMENTS */
+  .home-achievements__group {
+    row-gap: 50px;
+  }
+  .home-achievements-group__item {
+    width: 80%;
+    height: 450px;
+    align-items: flex-end;
+  }
+  .home-achievements-group__item h2 {
+    line-height: 30px;
+    font-size: 22px;
+    max-width: 260px;
+    margin: 0 0 40px 0;
+  }
+  .home-achievements-group__item h2 span {
+    font-size: 22px;
+  }
+  /* PARTNERS */
+  .home-partners-group__item {
+    width: 260px;
+  }
+  .home-partners-group__item a img {
+    max-width: 80%;
+    max-height: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* SERVICES */
+  .home-services__title {
+    margin: 0px 0 50px 0;
+  }
+  .home-services-item__img {
+    order: 2;
+    margin: 20px auto 0 auto;
+    width: 85%;
+  }
+  .home-services-group__item:nth-child(1) .home-services-item__img {
+    transform: translateX(45px);
+  }
+  .home-services-group__item:nth-child(4) .home-services-item__img {
+    transform: translateX(30px);
+  }
+  /* PARTNERS */
+  .home-container-5 {
+    margin: 100px 0;
+    background-image: none;
+    background-color: var(--partnersBckg);
+  }
+  .home-partners {
+    padding: 150px 0;
+  }
+  .home-partners-group__item {
+    width: 225px;
+    height: 135px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* HEAD */
+  .home-h-c-group__text h2 {
+    padding: 0 15px 0 0;
+    overflow: auto;
+    max-height: 187px;
+    font-size: 19px;
+  }
+  .home-h-c-group__btns {
+    justify-content: space-between;
+    column-gap: 0px;
+  }
+  /* ACHIEVEMENTS */
+  .home-achievements-group__item {
+    width: 100%;
+    background-size: contain;
+  }
+  .home-achievements-group__item h2 {
+    font-size: 20px;
+  }
+  .home-achievements-group__item h2 span {
+    font-size: 20px;
+  }
+  /* PARTNERS */
+  .home-container-5 {
+    margin: 50px 0;
+  }
+  .home-partners-group__item {
+    width: 165px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 360px) {
+  /* HEAD */
+  .home-h-c-group__text h2 {
+    font-size: 17px;
+  }
+  /* TECHNOLOGIES */
+  .home-technologies__group {
+    column-gap: 30px;
+  }
+  /* SERVICES */
+  .home-services-item__text h3 {
+    font-size: 17px;
+  }
+  /* PARTNERS */
+  .home-partners-group__item {
+    width: 135px;
+    height: 90px;
+  }
+}

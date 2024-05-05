@@ -1,0 +1,168 @@
+.blog-container-2 {
+  padding: 40px 0;
+}
+.articles-blog {
+  margin: 0 0 200px 0;
+  display: flex;
+  row-gap: 80px;
+  flex-flow: wrap column;
+}
+/* GROUP */
+.articles-blog__group {
+}
+
+/* GROUP PAGES */
+.articles-blog__group.--pages {
+  display: flex;
+  row-gap: 64px;
+  flex-flow: wrap column;
+}
+/* --ITEM */
+.articles-blog__group.--pages .articles-blog-group__item {
+  max-width: 1130px;
+  width: 100%;
+  display: none;
+  justify-content: stretch;
+  column-gap: 70px;
+  row-gap: 10px;
+  flex-flow: wrap;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 1px rgba(29, 51, 107, 0.35);
+  background-color: white;
+}
+.articles-blog__group.--pages .articles-blog-group__item.--active {
+  display: flex;
+}
+/* ----IMG */
+.articles-blog__group.--pages .articles-blog-item__img {
+  width: 100%;
+  max-width: 257px;
+  display: flex;
+}
+.articles-blog__group.--pages .articles-blog-item__img img {
+  width: 100%;
+  max-width: 257px;
+  height: 100%;
+  object-fit: cover;
+}
+/* ----TEXT */
+.articles-blog__group.--pages .articles-blog-item__text {
+  max-width: 740px;
+  padding: 20px 20px 20px 0;
+  margin: auto 0;
+}
+/* ------BAR */
+.articles-blog__group.--pages .articles-blog-item-text__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+  row-gap: 20px;
+  flex-flow: wrap;
+}
+/* --------RATE */
+.articles-blog__group.--pages .articles-blog-item-bar__rate {
+  display: flex;
+  column-gap: 10px;
+}
+.articles-blog__group.--pages .articles-blog-item-bar__rate img {
+  max-width: 24px;
+  max-height: 24px;
+  width: 100%;
+}
+/* --------INFO */
+.articles-blog__group.--pages .articles-blog-item-bar__info {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 10px;
+  flex-flow: wrap;
+}
+/* ----------ITEM */
+.articles-blog__group.--pages .articles-blog-item-bar-info__item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+/* ------CONTENT */
+.articles-blog__group.--pages .articles-blog-item-text__content {
+  line-height: 25px;
+  margin: 20px 0 15px 0;
+}
+.articles-blog__group.--pages .articles-blog-item-text__content h2 {
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+.articles-blog__group.--pages .articles-blog-item-text__content h3 {
+  max-height: 200px;
+  overflow: auto;
+}
+/* --------INFO */
+.articles-blog__group.--pages .articles-blog-item-text__info {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  flex-flow: wrap;
+}
+/* ----------AUTHOR */
+.articles-blog__group.--pages .articles-blog-item-info__author {
+  border-right: 1px solid var(--lightGrey);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-flow: wrap;
+}
+.articles-blog__group.--pages .articles-blog-item-info__author h2 {
+  padding: 0 15px 0 0;
+}
+/* ----------DATE */
+.articles-blog__group.--pages .articles-blog-item-ifno__date {
+}
+.articles-blog__group.--pages .articles-blog-item-ifno__date h2 {
+  padding: 0 0 0 15px;
+}
+
+/* GROUP BTNS */
+.articles-blog__group.--btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+/* --ITEM-BTNS */
+.articles-blog__group.--btns .articles-blog-group__item--btn {
+  cursor: default;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--darkBlue);
+  color: var(--darkBlue);
+  transition: var(--tran1);
+}
+.articles-blog__group.--btns
+  .articles-blog-group__item--btn:not(.--none):hover {
+  background-color: var(--darkBlue);
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
+.articles-blog__group.--btns .articles-blog-group__item--btn.--active {
+  background-color: var(--darkBlue);
+  cursor: pointer;
+  color: white;
+  transform: scale(1.1);
+}
+.articles-blog__group.--btns .articles-blog-group__item--btn h2 {
+  color: inherit;
+  font-family: HarabaraB;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}

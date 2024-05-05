@@ -1,0 +1,42 @@
+/* VARS */
+:root {
+  --partnersBckg: rgb(234, 241, 252);
+
+  --lightBlue: #84b5ff;
+  --blue: #44c9ff;
+  --mediumBlue: #0d6eb7;
+  --darkBlue: #194484;
+  --green: #06b25f;
+  --lightGreen: #66d6a0;
+  --darkGrey: #242424;
+  --grey: #4c4c4c;
+  --lightGrey: #b1b1b1;
+
+  --tran1: all linear 0.1s;
+  --tran2: all linear 0.2s;
+  --tran3: all linear 0.3s;
+  --tran4: all linear 0.4s;
+  --tran5: all linear 0.5s;
+}
+body {
+}
+/* CONTAINER & INNER & WRAPPER */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+.inner {
+  max-width: 1360px;
+  margin: 0 auto;
+  z-index: 3;
+  position: relative;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+  overflow: hidden;
+}

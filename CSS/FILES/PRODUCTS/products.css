@@ -1,0 +1,19 @@
+/* MODULES IMPORTS */
+/* --COMPONENTS */
+@import url("../../MODULES/COMPONENTS/TEXT/text-0.css");
+@import url("../../MODULES/COMPONENTS/TITLE/title-0.css");
+@import url("../../MODULES/COMPONENTS/BTN/btn-0.css");
+/* --BLOCKS */
+@import url("../../MODULES/BLOCKS/module-navigation.css");
+@import url("../../MODULES/BLOCKS/module-burger-menu.css");
+@import url("../../MODULES/BLOCKS/module-block-card.css");
+@import url("../../MODULES/BLOCKS/module-solution.css");
+@import url("../../MODULES/BLOCKS/module-contacts.css");
+@import url("../../MODULES/BLOCKS/module-footer.css");
+
+/* FILES IMPORTS */
+@import url("../PRODUCTS/CATALOG/products__catalog-content.css");
+
+/* ADAPTIVE IMPORTS */
+@import url("../../ADAPTIVE/modules-adaptive.css");
+@import url("../../ADAPTIVE/products-adapive.css");

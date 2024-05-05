@@ -1,0 +1,32 @@
+/* SOCIAL */
+.home-h-c-group__social {
+  position: absolute;
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border-radius: 5px;
+  z-index: 2;
+  display: flex;
+  flex-flow: wrap column;
+  background-color: #fff;
+}
+.home-h-c-group-social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid var(--darkBlue);
+  cursor: pointer;
+}
+.home-h-c-group-social__item:hover img {
+  transform: scale(1.1);
+}
+.home-h-c-group-social__item:last-child {
+  border: none;
+}
+.home-h-c-group-social__item img {
+  transition: 0.1s all linear;
+  width: 24px;
+  height: 24px;
+}
