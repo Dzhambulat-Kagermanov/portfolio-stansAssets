@@ -27,3 +27,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+.contacts-container-1 {
+  overflow: visible;
+}
